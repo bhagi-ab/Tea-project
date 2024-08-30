@@ -1,0 +1,26 @@
+h1{
+color:  green;
+text-align : center;
+font:Arial;
+}
+
+h2{
+background-color: #D5EAE9;
+font-size :13pt;
+}
+
+h2.f{
+font-style :bold ;
+font-family:Century Gothic;
+text-decoration:underline;
+text-align:center;
+}
+
+h3{
+font:13pt;
+text-align : center:
+color :  green;
+font-weight:bold;
+}
+
+

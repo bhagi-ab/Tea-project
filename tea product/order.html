@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A World of Tea LTD</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>A World of Tea Ltd</h1>
+    <h2><u>Place your Order</u></h2>
+    <form action="/process_order.php" method="post">
+        Name : <input type="text" name="name"><br><br>
+
+        Address : <textarea name="address" rows="6"  cols="60"></textarea><br><br>
+        
+        Item Code : <input type="text" name="code"><br><br>
+        
+        Select a Pack Size : <select name="packet">
+        <option value>Select a pack</option>
+        <option value>100 tea bags </option>
+        <option value>200g pack</option>
+        <option value>Family pack</option>
+        </select><br><br>
+        
+        No.of packs required : <input type:"text" name="No"><br><br>
+        
+        Will you pay on delivery or send a  money order ? 
+        Pay on Delivery <input type="radio"  value="Pay on Delivery" name="pay" ckecked>
+        
+        Money Oreder<input type="radio"  value="Pay on Delivery" name="pay" ckecked><br><br>
+        
+        Do you agree to our terms and conditions ? <input type="checkbox" name ="agree" value="agree" checked>
+        <br><br>
+        
+        Do you have your own special wayto brew the best cup of tea ? Share your method with us..<br><br>
+        <input type="text"  name="method" size="40">
+        <input type="submit" value="Browse">
+        <br><br>
+        
+        <button type="submit">Order</button>
+        <button type="reset">Cancel</button>
+    </form>
+</body>
+</html>
